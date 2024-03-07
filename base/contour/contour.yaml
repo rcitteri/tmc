@@ -7404,7 +7404,7 @@ spec:
         - --log-level info
         command:
         - envoy
-        image: bitnami/envoy:1.25
+        image: docker.io/bitnami/envoy:1.25
         imagePullPolicy: IfNotPresent
         name: envoy
         env:
